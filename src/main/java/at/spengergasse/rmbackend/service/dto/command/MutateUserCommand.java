@@ -1,5 +1,7 @@
 package at.spengergasse.rmbackend.service.dto.command;
 
+import at.spengergasse.rmbackend.validation.PasswordMatches;
+import at.spengergasse.rmbackend.validation.ValidEmail;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
