@@ -34,6 +34,7 @@ public interface IUserService {
     Optional<User> getUserByPasswordResetToken(String token);
 
     Optional<User> getUserByID(long id);
+    User getUserByEmail(String name);
 
     void changeUserPassword(User user, String password);
 

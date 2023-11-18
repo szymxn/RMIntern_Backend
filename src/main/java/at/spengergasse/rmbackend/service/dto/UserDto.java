@@ -13,6 +13,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 @PasswordMatches
+@NoArgsConstructor
 @Getter
 @Setter
 public class UserDto {
